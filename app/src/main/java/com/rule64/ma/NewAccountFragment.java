@@ -1,4 +1,4 @@
-package com.example.ma;
+package com.rule64.ma;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,6 +9,8 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import com.example.ma.R;
 
 public class NewAccountFragment extends Fragment {
 
