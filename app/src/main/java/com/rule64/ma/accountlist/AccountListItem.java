@@ -5,6 +5,11 @@ public class AccountListItem {
     String site;
     String lastUpdated;
 
+    public AccountListItem(String pId, String pSite, String pLastUpdated){
+        id = pId;
+        site = pSite;
+        lastUpdated = pLastUpdated;
+    }
     public String getId() {
         return id;
     }
